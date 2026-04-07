@@ -1,6 +1,14 @@
 # ==============================================================================
 # Laboratorio 1: Matrices - Script Final con Dataframe de Resultados
 # ==============================================================================
+# Usted es el cientÍfico de datos de un hospital en el cual se estA realizando un
+# analisis descriptivo de un grupo de pacientes. Las enfermeras y enfermeros cap-
+# turadores de datos realizaron mediciones antropometricas de cada uno de los
+# individuos y la escribieron a mano en un Case Report Form (CRF). Posterior-
+# mente un operador traspaso cada CRF a una planilla. A usted le entregan la
+# planilla en un archivo Excel (Tabla 1) y se le solicita analizarla.
+# Con sus conocimientos del lenguaje de programaci´on R realice las siguientes
+# actividades.
 
 # 0. Creación de los datos (Basado en la Tabla 1 del documento)
 # ------------------------------------------------------------------------------
