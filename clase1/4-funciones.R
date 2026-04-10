@@ -19,12 +19,12 @@ str(vector)
 #--------------------------------------
 
 # generación de una función anónima
-f <- function() {
+forma <- function() {
   x <- 1
   y <- 3
   x + y
 }
-f()
+forma()
 
 # calculo de IMC
 imc <- function(peso, altura) {

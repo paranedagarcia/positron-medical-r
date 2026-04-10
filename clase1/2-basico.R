@@ -73,10 +73,10 @@ mediana <- median(datos)
 # 4. Cálculo de la Moda (El valor con mayor frecuencia)
 # Creamos una función personalizada para encontrar el valor más frecuente
 calcular_moda <- function(v) {
-tab <- table(v)                # Crea una tabla de frecuencias
-indice_max <- which.max(tab)    # Encuentra la posición del valor máximo
-moda <- names(tab)[indice_max]  # Obtiene el nombre (valor) de esa posición
-return(as.numeric(moda))        # Lo devuelve como número
+  tab <- table(v)                # Crea una tabla de frecuencias
+  indice_max <- which.max(tab)    # Encuentra la posición del valor máximo
+  moda <- names(tab)[indice_max]  # Obtiene el nombre (valor) de esa posición
+  return(as.numeric(moda))        # Lo devuelve como número
 }
 
 moda <- calcular_moda(datos)

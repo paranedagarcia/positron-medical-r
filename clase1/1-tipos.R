@@ -120,8 +120,8 @@ obj.list[[1]]
 # como una hoja de cálculo en MS Excel.
 
 # creando vectores de diferentes variables y luego creando el dataframe
-var1 <- c(101,102,103,104,105)
-var2 <- c(25,22,29,34,33)
+var1 <- c(101,102,104,NaN,105)
+var2 <- c(25,22,29,4,33)
 var3 <- c("Non-Diabetic", "Diabetic", "Non-Diabetic", "Non-Diabetic", "Diabetic")
 var4 <- factor(c("male","male","female","female","male"))
 # creando el dataframe
